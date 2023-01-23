@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from 'gatsby'
 import { container, heading, navLinks, navLinkItem, navLinkText  } from './layout.module.css'
-console.log('container:', container)
+import { StaticImage } from "gatsby-plugin-image"
 
 const Layout = ({ pageTitle, pageHeading, children}) =>{
     return (

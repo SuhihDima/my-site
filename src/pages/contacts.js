@@ -1,11 +1,11 @@
-import * as React from "react";
+import * as React from "react"
 import Layout from "../components/layout";
 
 
-const Homepage = () =>{
+const ContactPage = () =>{
 return(
     <main>
-         <Layout pageHeading='Домашняя' pageTitle ='Наша главная страница'>
+        <Layout pageHeading='Контакты' pageTitle ='Все о наших мастерах'>
             Надрезаем хомут или резинку и снимаем пластиковый пакет. Корневая система саженца плотно упакована в торф и обмотана тонкой пленкой. Во избежание повреждений корней черную пленку лучше не разрезать, а осторожно размотать.
         </Layout>
     </main>
@@ -13,4 +13,4 @@ return(
 
 };
 
-export default Homepage;
+export default ContactPage;

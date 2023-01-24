@@ -1,6 +1,6 @@
 .container {
     margin: auto;
-    max-width: 500px; 
+    max-width: 700px; 
     font-family: sans-serif;
     
 }
@@ -20,4 +20,10 @@
 
 .nav-link-text {
     color: rgb(114, 109, 109);
+}
+.site-title{
+    font-size:2rem;
+    color: rgba(59, 58, 60, 0.432);
+    font-weight: 700;
+    
 }
